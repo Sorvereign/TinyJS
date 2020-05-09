@@ -1,0 +1,36 @@
+{
+  "name": "tinyjs",
+  "version": "1.0.0",
+  "description": "A Tiny Language Implementation based on https://github.com/itsWill/minilangjs/tree/master/src. Ported to ES6",
+  "main": "compiler.js",
+  "scripts": {
+    "transpile": "babel ./src --out-dir bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sorvereign/TinyJS.git"
+  },
+  "keywords": [
+    "programming",
+    "language",
+    "javascript",
+    "lexer",
+    "compiler",
+    "parser"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sorvereign/TinyJS/issues"
+  },
+  "homepage": "https://github.com/Sorvereign/TinyJS#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3"
+  }
+}

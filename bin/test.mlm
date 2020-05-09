@@ -1,0 +1,7 @@
+var t:int = 0;
+var u:int = 561;
+var v:int = 11;
+print u;
+
+
+
